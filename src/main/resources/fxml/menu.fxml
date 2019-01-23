@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.ilkeskin.petrusfx.menu.MenuController">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="98.25" minWidth="10.0" prefWidth="90.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="247.5" minWidth="10.0" prefWidth="194.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="139.5" minWidth="10.0" prefWidth="110.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <JFXComboBox fx:id="countryComboBox" prefHeight="23.0" prefWidth="89.0" GridPane.columnIndex="0" />
+        <JFXComboBox fx:id="cityComboBox" prefHeight="25.0" prefWidth="231.0" GridPane.columnIndex="1" />
+        <JFXComboBox fx:id="unitComboBox" prefHeight="25.0" prefWidth="118.0" GridPane.columnIndex="2" />
+    </children>
+</GridPane>
